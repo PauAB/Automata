@@ -29,8 +29,6 @@ public class DamageMessage :  Message
         this.receiver = receiver;
         senderComp = senderComponent;
         this.damage = damage;
-
-       
     }
 
     public bool SetMessageAndSendMessage(Transform send, Transform receiver, System.Type senderComponent, float damage)
@@ -52,19 +50,4 @@ public class MessageA : MonoBehaviour
 {
     Transform senderEntity;
     Transform receiverEntity;
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-      
-        
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }
